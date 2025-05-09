@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Snaker punk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="score">Pontuação: <span id="score">0</span></div>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="game-over" id="gameOver">
+            <h2>Game Over!</h2>
+            <p>Pontuação Final: <span id="finalScore">0</span></p>
+            <button onclick="restartGame()">Jogar Novamente</button>
+        </div>
+    </div>
+    <div class="controls">
+        Use as setas do teclado para controlar<br>
+        Pressione espaço para reiniciar
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
